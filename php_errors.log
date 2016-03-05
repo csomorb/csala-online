@@ -3,3 +3,8 @@
 [05-Mar-2016 14:46:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/szerkesztes/csendelet_kh.php:0
 [05-Mar-2016 14:46:58 UTC] PHP   2. include() /home/ubuntu/workspace/szerkesztes/csendelet_kh.php:3
 [05-Mar-2016 14:46:58 UTC] PHP   3. getimagesize() /home/ubuntu/workspace/szerkesztes/upload_photo.php:20
+[05-Mar-2016 14:58:14 UTC] PHP Warning:  getimagesize(../img/2.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/szerkesztes/upload_photo.php on line 20
+[05-Mar-2016 14:58:14 UTC] PHP Stack trace:
+[05-Mar-2016 14:58:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/szerkesztes/csendelet_kh.php:0
+[05-Mar-2016 14:58:14 UTC] PHP   2. include() /home/ubuntu/workspace/szerkesztes/csendelet_kh.php:3
+[05-Mar-2016 14:58:14 UTC] PHP   3. getimagesize() /home/ubuntu/workspace/szerkesztes/upload_photo.php:20
